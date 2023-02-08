@@ -16,4 +16,21 @@
             <class name="com.herokuapp.NegativeLoginTest1"/>
         </classes>
     </test>-->
+
+    <test name="Checkboxes">
+        <classes>
+            <class name="com.herokuapp.CheckboxesTest"/>
+        </classes>
+    </test>-->
+    <test name="DropdownTest">
+        <classes>
+            <class name="com.herokuapp.DropdownTest"/>
+        </classes>
+    </test>-->
+    <test name="FileUploadTest">
+        <classes>
+            <class name="com.herokuapp.FileUploadTest"/>
+        </classes>
+    </test>-->
+
 </suite>
