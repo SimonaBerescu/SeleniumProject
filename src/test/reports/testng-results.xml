@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LoginTest" duration-ms="61809" started-at="2023-02-08T20:26:26 EET" finished-at="2023-02-08T20:27:27 EET">
+    <groups>
+      <group name="regresion">
+        <method signature="LoginTests.login(java.lang.String,java.lang.String)[pri:1, instance:com.herokuapp.LoginTests@1a5fe33]" name="login" class="com.herokuapp.LoginTests"/>
+        <method signature="LoginTests.login()[pri:2, instance:com.herokuapp.LoginTests@1a5fe33]" name="login" class="com.herokuapp.LoginTests"/>
+      </group> <!-- regresion -->
+      <group name="smoke">
+        <method signature="LoginTests.login(java.lang.String,java.lang.String)[pri:1, instance:com.herokuapp.LoginTests@1a5fe33]" name="login" class="com.herokuapp.LoginTests"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="PositiveLoging" duration-ms="23258" started-at="2023-02-08T20:26:26 EET" finished-at="2023-02-08T20:26:49 EET">
+      <class name="com.herokuapp.LoginTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.LoginTests@1a5fe33]" name="setUp" is-config="true" duration-ms="9977" started-at="2023-02-08T20:26:26 EET" finished-at="2023-02-08T20:26:36 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:1, instance:com.herokuapp.LoginTests@1a5fe33]" name="login" duration-ms="3996" started-at="2023-02-08T20:26:36 EET" finished-at="2023-02-08T20:26:40 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.LoginTests@1a5fe33]" name="tearDown" is-config="true" duration-ms="362" started-at="2023-02-08T20:26:40 EET" finished-at="2023-02-08T20:26:40 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.LoginTests@1a5fe33]" name="setUp" is-config="true" duration-ms="7587" started-at="2023-02-08T20:26:40 EET" finished-at="2023-02-08T20:26:48 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:2, instance:com.herokuapp.LoginTests@1a5fe33]" name="login" duration-ms="1141" started-at="2023-02-08T20:26:48 EET" finished-at="2023-02-08T20:26:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.LoginTests@1a5fe33]" name="tearDown" is-config="true" duration-ms="88" started-at="2023-02-08T20:26:49 EET" finished-at="2023-02-08T20:26:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.LoginTests -->
+    </test> <!-- PositiveLoging -->
+    <test name="Checkboxes" duration-ms="10505" started-at="2023-02-08T20:26:49 EET" finished-at="2023-02-08T20:26:59 EET">
+      <class name="com.herokuapp.CheckboxesTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.CheckboxesTest@1554b06]" name="setUp" is-config="true" duration-ms="9952" started-at="2023-02-08T20:26:49 EET" finished-at="2023-02-08T20:26:59 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkboxesTest()[pri:0, instance:com.herokuapp.CheckboxesTest@1554b06]" name="checkboxesTest" duration-ms="51" started-at="2023-02-08T20:26:59 EET" finished-at="2023-02-08T20:26:59 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkboxesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.CheckboxesTest@1554b06]" name="tearDown" is-config="true" duration-ms="501" started-at="2023-02-08T20:26:59 EET" finished-at="2023-02-08T20:26:59 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.CheckboxesTest -->
+    </test> <!-- Checkboxes -->
+    <test name="DropdownTest" duration-ms="17216" started-at="2023-02-08T20:26:59 EET" finished-at="2023-02-08T20:27:17 EET">
+      <class name="com.herokuapp.DropdownTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.DropdownTest@1d7a715]" name="setUp" is-config="true" duration-ms="16961" started-at="2023-02-08T20:26:59 EET" finished-at="2023-02-08T20:27:16 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="dropdownTest()[pri:0, instance:com.herokuapp.DropdownTest@1d7a715]" name="dropdownTest" duration-ms="181" started-at="2023-02-08T20:27:16 EET" finished-at="2023-02-08T20:27:17 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdownTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.DropdownTest@1d7a715]" name="tearDown" is-config="true" duration-ms="72" started-at="2023-02-08T20:27:17 EET" finished-at="2023-02-08T20:27:17 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.DropdownTest -->
+    </test> <!-- DropdownTest -->
+    <test name="FileUploadTest" duration-ms="10756" started-at="2023-02-08T20:27:17 EET" finished-at="2023-02-08T20:27:27 EET">
+      <class name="com.herokuapp.FileUploadTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.FileUploadTest@144fc21]" name="setUp" is-config="true" duration-ms="9516" started-at="2023-02-08T20:27:17 EET" finished-at="2023-02-08T20:27:26 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fileUploadTest()[pri:0, instance:com.herokuapp.FileUploadTest@144fc21]" name="fileUploadTest" duration-ms="928" started-at="2023-02-08T20:27:26 EET" finished-at="2023-02-08T20:27:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUploadTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.FileUploadTest@144fc21]" name="tearDown" is-config="true" duration-ms="310" started-at="2023-02-08T20:27:27 EET" finished-at="2023-02-08T20:27:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.FileUploadTest -->
+    </test> <!-- FileUploadTest -->
+  </suite> <!-- LoginTest -->
+</testng-results>
